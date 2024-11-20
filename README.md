@@ -75,4 +75,3 @@ Este proyecto es de uso libre para fines educativos y experimentales. Si planeas
 
 ---
 
-Este README ahora está más completo y profesional, con información clara y detallada para ayudar a otros a entender y trabajar en el proyecto. 😊
