@@ -50,22 +50,22 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBGPH3rUUBaLmfdtBiMoa9Gy1ZUD7N9FhQ',
-    appId: '1:101687621973:web:8ba38ce936facfc64f17dc',
-    messagingSenderId: '101687621973',
-    projectId: 'fir-proyect1-f9499',
-    authDomain: 'fir-proyect1-f9499.firebaseapp.com',
-    storageBucket: 'fir-proyect1-f9499.firebasestorage.app',
-    measurementId: 'G-YXB06ZY3JS',
+    apiKey: 'AIzaSyD5NneGGl1Bjni3cS07aUavApLrrdk08eU',
+    appId: '1:134281827033:web:10fdefc83cadc38092e4c8',
+    messagingSenderId: '134281827033',
+    projectId: 'flutter-codelabs-f0a90',
+    authDomain: 'flutter-codelabs-f0a90.firebaseapp.com',
+    storageBucket: 'flutter-codelabs-f0a90.firebasestorage.app',
+    measurementId: 'G-1F0T9GEX5C',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBGPH3rUUBaLmfdtBiMoa9Gy1ZUD7N9FhQ',
-    appId: '1:101687621973:web:a92bdcdbcc73f9594f17dc',
-    messagingSenderId: '101687621973',
-    projectId: 'fir-proyect1-f9499',
-    authDomain: 'fir-proyect1-f9499.firebaseapp.com',
-    storageBucket: 'fir-proyect1-f9499.firebasestorage.app',
-    measurementId: 'G-Z5GXLFKLJZ',
+    apiKey: 'AIzaSyD5NneGGl1Bjni3cS07aUavApLrrdk08eU',
+    appId: '1:134281827033:web:10fdefc83cadc38092e4c8',
+    messagingSenderId: '134281827033',
+    projectId: 'flutter-codelabs-f0a90',
+    authDomain: 'flutter-codelabs-f0a90.firebaseapp.com',
+    storageBucket: 'flutter-codelabs-f0a90.firebasestorage.app',
+    measurementId: 'G-1F0T9GEX5C',
   );
 }
