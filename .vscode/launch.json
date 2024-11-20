@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Get-to-know-Firebase-for-Flutter",
+            "cwd": "Get-to-know-Firebase-for-Flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Get-to-know-Firebase-for-Flutter (profile mode)",
+            "cwd": "Get-to-know-Firebase-for-Flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Get-to-know-Firebase-for-Flutter (release mode)",
+            "cwd": "Get-to-know-Firebase-for-Flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
