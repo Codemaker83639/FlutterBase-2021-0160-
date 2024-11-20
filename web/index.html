@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="project-101687621973">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>project-101687621973</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- Firebase JS SDK -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+    import { getAuth, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
+
+    // Configuración de Firebase
+    const firebaseConfig = {
+      apiKey: "AIzaSyBGPH3rUUBaLmfdtBiMoa9Gy1ZUD7N9FhQ",
+      authDomain: "fir-proyect1-f9499.firebaseapp.com",
+      projectId: "fir-proyect1-f9499",
+      storageBucket: "fir-proyect1-f9499.firebasestorage.app",
+      messagingSenderId: "101687621973",
+      appId: "1:101687621973:web:8ba38ce936facfc64f17dc",
+      measurementId: "G-YXB06ZY3JS"
+    };
+
+    // Inicializa Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+
+    // Proveedor de Google
+    const provider = new GoogleAuthProvider();
+
+    // Función para iniciar sesión con Google
+    async function signInWithGoogle() {
+      try {
+        const result = await signInWithPopup(auth, provider);
+        const user = result.user;
+        console.log("Usuario autenticado:", user);
+      } catch (error) {
+        console.error("Error al iniciar sesión con Google:", error);
+      }
+    }
+
+    // Llama a la función automáticamente (opcional, puedes llamarla desde tu app Flutter)
+    signInWithGoogle();
+  </script>
+
+  <!-- Flutter bootstrap -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
